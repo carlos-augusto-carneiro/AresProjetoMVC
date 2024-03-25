@@ -22,6 +22,10 @@ namespace AresPorjeto.MVC.Controllers
         {
             return View();
         }
+        public IActionResult AddUser()
+        {
+            return RedirectToAction();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

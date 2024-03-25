@@ -1,10 +1,12 @@
 using AresProjeto.Persistence;
+using AresProjeto.Aplication.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.ConfigurationPersistence(builder.Configuration);
+builder.Services.ConfigureApplicationApp();
 
 var app = builder.Build();
 

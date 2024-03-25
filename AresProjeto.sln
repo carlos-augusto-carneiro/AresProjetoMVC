@@ -9,13 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfraStruct", "InfraStruct"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentetion", "Presentetion", "{27246A93-C918-4EDC-B61A-CBE62B4C1B5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AresPorjeto.MVC", "AresPorjeto.MVC\AresPorjeto.MVC.csproj", "{BC5A455E-2939-48FD-9C0A-8198B31DCFD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AresPorjeto.MVC", "AresPorjeto.MVC\AresPorjeto.MVC.csproj", "{BC5A455E-2939-48FD-9C0A-8198B31DCFD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AresProjeto.Persistence", "AresProjeto.Persistence\AresProjeto.Persistence.csproj", "{E39FD095-CED6-41B3-9028-27B91C75DDCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AresProjeto.Persistence", "AresProjeto.Persistence\AresProjeto.Persistence.csproj", "{E39FD095-CED6-41B3-9028-27B91C75DDCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AresProjeto.Aplication", "AresProjeto.Aplication\AresProjeto.Aplication.csproj", "{59D6F3D0-ADE6-4075-B2E8-C6951127C0D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AresProjeto.Aplication", "AresProjeto.Aplication\AresProjeto.Aplication.csproj", "{59D6F3D0-ADE6-4075-B2E8-C6951127C0D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AresProjeto.Domain", "AresProjeto.Domain\AresProjeto.Domain.csproj", "{C65091A1-82B6-416D-99E0-2E01EA47AEA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AresProjeto.Domain", "AresProjeto.Domain\AresProjeto.Domain.csproj", "{C65091A1-82B6-416D-99E0-2E01EA47AEA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

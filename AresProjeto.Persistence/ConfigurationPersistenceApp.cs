@@ -1,4 +1,6 @@
-﻿using AresProjeto.Persistence.Context;
+﻿using AresProjeto.Domain.Interfaces;
+using AresProjeto.Persistence.Context;
+using AresProjeto.Persistence.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -12,6 +14,7 @@ namespace AresProjeto.Persistence
             var connectionString = configuration.GetConnectionString("MySql");
             services.AddDbContext<UserTaskContext>(opt => opt.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
+            services.AddScoped<IUser, UserRepository>();
         }
     }
 }
