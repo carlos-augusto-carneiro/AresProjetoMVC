@@ -10,6 +10,6 @@ namespace AresProjeto.Domain.Interfaces
         public void Deletar(Guid Id);
         public IList<Taskt> listTasks();
         public Taskt GetTaskt(Guid IdTaskt);
-
+        public void SumHours();
     }
 }
